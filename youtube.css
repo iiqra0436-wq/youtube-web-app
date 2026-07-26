@@ -161,9 +161,20 @@ body {
 }
 
 .current-user-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transform: scale(1.4);
+}
+.user-avatar-wrapper {
+  width: 32px;
   height: 32px;
-  border-radius: 16px;
+  border-radius: 50%;
+  overflow: hidden;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Sidebar Section (Lesson 17) */
