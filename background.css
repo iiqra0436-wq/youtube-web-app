@@ -2,5 +2,50 @@ body
 {
     background-color: black;
     color: white;
-    
+
 }
+.video-title-link,
+.video-title-link:visited,
+.video-title
+{
+    color: white;
+}
+.video-title-link:hover .video-title
+{
+color: #3ea6ff;
+}
+.header,
+.sidebar
+{
+background-color: black;
+color: white;
+}
+.sidebar-link:hover
+{color: white;}
+header img,
+.hamburger-menu,
+.search-icon,
+.voice-search-icon,
+.upload-icon,
+.youtube-apps-icon,
+.notifications-icon,
+.sidebar-link img {
+  filter: invert(1);
+}
+.search-bar {
+  background-color: rgb(18, 18, 18);
+  color: white;
+  border: 1px solid rgb(48, 48, 48);
+}
+
+.search-button, 
+.voice-search-button {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(48, 48, 48);
+}
+.youtube-logo,
+.current-user-picture {
+  filter: none;
+}
+.youtube-logo{
+filter: invert(1) hue-rotate(180deg);}
